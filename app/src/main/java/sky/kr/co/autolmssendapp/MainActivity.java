@@ -84,7 +84,7 @@ public class MainActivity extends Activity {
                     startActivity(new Intent(MainActivity.this, LMSMainActivity.class));
                     break;
                 case R.id.btn4:
-                    //startActivity(new Intent(MainActivity.this, LMSMainActivity.class));
+                    startActivity(new Intent(MainActivity.this, MainSettingNoticeList.class));
                     break;
 
             }

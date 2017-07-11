@@ -13,6 +13,9 @@ import sky.kr.co.autolmssendapp.obj.MyPhoneListObj2;
 @SuppressLint("SdCardPath")
 public class CommonUtil {
 	private static CommonUtil _instance;
+	public static boolean isHome = false;
+	public static boolean isLock = false;
+
 	public int EA;
 	public int HomeBtn;
 	
@@ -82,7 +85,7 @@ public class CommonUtil {
 
 			_instance.EXIT = 	   		false;
 			_instance.PHONE = 	   		"";
-			_instance.SERVER = 	   		"http://shqrp5200.cafe24.com/";
+			_instance.SERVER = 	   		"http://snap40.cafe24.com/AutoLms/";
 
 			
 		} catch (Exception e) {

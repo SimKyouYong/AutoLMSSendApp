@@ -60,6 +60,7 @@ public class IntroActivity extends Activity {
             //dataSet.PHONE = telManager.getDeviceId();
         } catch (Exception e) {
             // TODO: handle exception
+			dataSet.PHONE = telManager.getDeviceId();
             //confirmDialog("휴대폰 번호가 없는 기기는 가입할수 없습니다.");
             //return;
         }
