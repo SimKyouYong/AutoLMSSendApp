@@ -15,6 +15,9 @@ import android.support.v4.content.ContextCompat;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
+
 import sky.kr.co.autolmssendapp.common.CommonUtil;
 import sky.kr.co.autolmssendapp.common.MySQLiteOpenHelper;
 
@@ -49,6 +52,12 @@ public class IntroActivity extends Activity {
 		setContentView(R.layout.activity_intro);
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         vc = new MySQLiteOpenHelper(this);
+
+
+        //추가한 라인
+        FirebaseMessaging.getInstance().subscribeToTopic("news");
+        FirebaseInstanceId.getInstance().getToken();
+
 
 
         TelephonyManager telManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);// 사용자 전화번호로 ID값 가져옴

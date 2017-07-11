@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
         map.clear();
         map.put("url", dataSet.SERVER + "Join.php");
         map.put("phone", dataSet.PHONE);
-        map.put("reg_id", "");
+        map.put("reg_id", dataSet.REG_ID);
         mThread = new AccumThread(this , mAfterAccum , map , 0 , 0 , null);
 
         mThread.start();		//스레드 시작!!

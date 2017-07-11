@@ -29,7 +29,11 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile files('libs/skylib.jar')
     compile files('libs/CaulySDK-3.4.15.jar')
-    compile 'com.google.android.gms:play-services-base:+'
-    compile 'com.google.android.gms:play-services-ads:+'
+    //compile 'com.google.android.gms:play-services-base:+'
+    //compile 'com.google.android.gms:play-services-ads:+'
     compile ('com.gomfactory:adpie:+')
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+
+
 }
+apply plugin: 'com.google.gms.google-services'
