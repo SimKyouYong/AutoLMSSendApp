@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "605314298433",
+    "firebase_url": "https://lmsauto-a4a14.firebaseio.com",
+    "project_id": "lmsauto-a4a14",
+    "storage_bucket": "lmsauto-a4a14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605314298433:android:0eefc6acbb50541b",
+        "android_client_info": {
+          "package_name": "sky.kr.co.autolmssendapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605314298433-rmggj65kmtohcirvbo61vijov4e4a4lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEZ8dtUKNURsaNMsxSB3aWFtjH2TuATu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
